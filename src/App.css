@@ -1,0 +1,87 @@
+.App{
+  height: auto;
+  width: 100%;
+}
+
+.heading{
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.itemDiv{
+  height:auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.itemdivlist{
+  height: 22rem;   
+  width: 20rem;
+  margin: .5rem;
+  box-shadow: 0px 0px 2px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.imgdiv{
+  height: 12rem;
+  width: 13rem;
+}
+.imgdiv img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.navbar{
+  height: 4rem;
+  width: 100%;
+  background-color: rgb(85, 8, 8);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar a{
+ font-size: 1.2rem;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin: 2rem;
+ text-decoration: none;
+ color: white;
+}
+.formdiv{
+  height: 20rem;
+  width: 40%;
+  margin:2% auto;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+input{
+  height: 2rem;
+  width: 60%;
+}
+button{
+  height: 2rem;
+  width: 30%;
+}
+
+.elediv{
+    height: 7rem;
+    width: 70%;
+    box-shadow: 0px 0px 5px black;
+    margin: 1rem;
+}	
+.elediv p{
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: .5rem;
+}
+ 
